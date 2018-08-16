@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPTaskRunner", "CSSPTaskRunner\CSSPTaskRunner.csproj", "{4CD46C62-9859-416D-906F-ED8EE7CEAB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPTaskRunner.Tests", "CSSPTaskRunner.Tests\CSSPTaskRunner.Tests.csproj", "{DB357C99-8678-4BB7-9EC5-8D8DD1FA5972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPTaskRunnerHelper", "CSSPTaskRunnerHelper\CSSPTaskRunnerHelper.csproj", "{50E79285-C8C5-4BF5-8E0F-662985459766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPTaskRunnerHelper.Tests", "CSSPTaskRunnerHelper.Tests\CSSPTaskRunnerHelper.Tests.csproj", "{3AD9D7AB-653C-42EB-9680-59666CF7CF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WQMS.RTNotifiers", "..\CSSPWQMSRealTimeNotifiers\WQMS.RTNotifiers\WQMS.RTNotifiers.csproj", "{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD46C62-9859-416D-906F-ED8EE7CEAB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD46C62-9859-416D-906F-ED8EE7CEAB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD46C62-9859-416D-906F-ED8EE7CEAB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD46C62-9859-416D-906F-ED8EE7CEAB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB357C99-8678-4BB7-9EC5-8D8DD1FA5972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB357C99-8678-4BB7-9EC5-8D8DD1FA5972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB357C99-8678-4BB7-9EC5-8D8DD1FA5972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB357C99-8678-4BB7-9EC5-8D8DD1FA5972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E79285-C8C5-4BF5-8E0F-662985459766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E79285-C8C5-4BF5-8E0F-662985459766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E79285-C8C5-4BF5-8E0F-662985459766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E79285-C8C5-4BF5-8E0F-662985459766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD9D7AB-653C-42EB-9680-59666CF7CF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD9D7AB-653C-42EB-9680-59666CF7CF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD9D7AB-653C-42EB-9680-59666CF7CF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD9D7AB-653C-42EB-9680-59666CF7CF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87F85B67-1262-491F-8DD5-3FA0B554C2A4}
+	EndGlobalSection
+EndGlobal
