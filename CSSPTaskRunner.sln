@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPTaskRunnerHelper", "CSS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPTaskRunnerHelper.Tests", "CSSPTaskRunnerHelper.Tests\CSSPTaskRunnerHelper.Tests.csproj", "{3AD9D7AB-653C-42EB-9680-59666CF7CF64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WQMS.RTNotifiers", "..\CSSPWQMSRealTimeNotifiers\WQMS.RTNotifiers\WQMS.RTNotifiers.csproj", "{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WQMS.RTNotifiers", "..\WQMSRTNotifiers\WQMS.RTNotifiers\WQMS.RTNotifiers.csproj", "{16AAB87D-346F-4EEB-9A5B-1EE44BB56F2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
