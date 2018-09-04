@@ -58,7 +58,7 @@ namespace CSSPTaskRunnerHelper
             labSheetDetailNew.SamplingPlanID = labSheetAndA1Sheet.LabSheet.SamplingPlanID;
             labSheetDetailNew.SubsectorTVItemID = labSheetAndA1Sheet.LabSheet.SubsectorTVItemID;
             labSheetDetailNew.Version = labSheetAndA1Sheet.LabSheetA1Sheet.Version;
-            labSheetDetailNew.IncludeLaboratoryQAQC = labSheetAndA1Sheet.LabSheetA1Sheet.IncludeLaboratoryQAQC;
+            //labSheetDetailNew.IncludeLaboratoryQAQC = labSheetAndA1Sheet.LabSheetA1Sheet.IncludeLaboratoryQAQC;
 
             // RunDate
             DateTime RunDate = new DateTime();
