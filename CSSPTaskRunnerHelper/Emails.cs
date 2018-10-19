@@ -30,7 +30,7 @@ namespace CSSPTaskRunnerHelper
         #region Functions private
         private void SendNewLabSheetEmailBigMPN(string href, TVItem tvItemProvince, TVItem tvItemSubsector, LabSheetAndA1Sheet labSheetAndA1Sheet)
         {
-            using (CSSPWebToolsDBContext db = new CSSPWebToolsDBContext(DatabaseTypeEnum.SqlServerCSSPWebToolsDB))
+            using (CSSPDBContext db = new CSSPDBContext(DatabaseTypeEnum.SqlServerCSSPDB))
             {
                 SamplingPlan samplingPlan = (from c in db.SamplingPlans
                                              where c.SamplingPlanID == labSheetAndA1Sheet.LabSheet.SamplingPlanID
@@ -172,7 +172,7 @@ namespace CSSPTaskRunnerHelper
         }
         public void SendNewLabSheetEmail(string href, TVItem tvItemProvince, TVItem tvItemSubsector, LabSheetAndA1Sheet labSheetAndA1Sheet)
         {
-            using (CSSPWebToolsDBContext db = new CSSPWebToolsDBContext(DatabaseTypeEnum.SqlServerCSSPWebToolsDB))
+            using (CSSPDBContext db = new CSSPDBContext(DatabaseTypeEnum.SqlServerCSSPDB))
             {
                 SamplingPlan samplingPlan = (from c in db.SamplingPlans
                                              where c.SamplingPlanID == labSheetAndA1Sheet.LabSheet.SamplingPlanID

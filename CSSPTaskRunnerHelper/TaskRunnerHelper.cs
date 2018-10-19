@@ -1076,7 +1076,7 @@ namespace CSSPTaskRunnerHelper
 
             MessageEvent(new MessageEventArgs(DateTime.Now.ToString("F"), MessageTypeEnum.Status));
 
-            using (CSSPWebToolsDBContext db = new CSSPWebToolsDBContext())
+            using (CSSPDBContext db = new CSSPDBContext())
             {
                 AppTask appTask = (from c in db.AppTasks
                                    where c.AppTaskStatus == AppTaskStatusEnum.Created
